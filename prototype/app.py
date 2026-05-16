@@ -8,7 +8,7 @@ app = Flask(__name__)
 
 # --- Configuration ---
 # In a professional app, use environment variables: os.getenv("GEMINI_API_KEY")
-API_KEY = "AIzaSyCkH2hiqSJNes31u7GOqbatmdaY9KbXAjE" 
+API_KEY = "My Api Key" 
 genai.configure(api_key=API_KEY)
 
 # Using the May 2026 stable release
