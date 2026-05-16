@@ -4,7 +4,7 @@ from tkinter import filedialog
 from PIL import Image
 
 # Put your Gemini API key here
-genai.configure(api_key="AIzaSyCkH2hiqSJNes31u7GOqbatmdaY9KbXAjE")
+genai.configure(api_key="My Api Key")
 
 # Load Gemini vision model
 model = genai.GenerativeModel("gemini-2.5-flash")
